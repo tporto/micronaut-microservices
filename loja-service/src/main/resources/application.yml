@@ -1,0 +1,15 @@
+micronaut:
+  application:
+    name: lojaService
+  server:
+    port: 8081
+
+kafka:
+  bootstrap:
+    servers: localhost:9092
+
+consul:
+  client:
+    registration:
+      enabled: true
+    defaultZone: 'localhost:8500'

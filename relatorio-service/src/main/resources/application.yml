@@ -1,0 +1,12 @@
+micronaut:
+  application:
+    name: relatorioService
+  server:
+    port: 8082
+
+mongodb:
+  uri: 'mongodb://localhost:27017/vendas'
+
+kafka:
+  bootstrap:
+    servers: localhost:9092
